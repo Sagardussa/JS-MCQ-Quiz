@@ -71,7 +71,13 @@ const getcheckAnswer = () => {
        }
     });
       return answer;
+
 };
+
+
+const deselecrAll = () => {
+    answers.forEach((curAnsElem)  => curAnsElem.checked = false );
+}
 
      
 submit.addEventListener('click',() => {
@@ -83,6 +89,8 @@ submit.addEventListener('click',() => {
         };
 
          questionCount++;
+
+         deselecrAll();
 
         if (questionCount < quizDB.length){
             loadQuestion();
