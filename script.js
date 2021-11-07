@@ -1,4 +1,5 @@
 const  quizDB = [
+     
     {
                   question: "Q1: What is the full form of HTML?",
                  a: "Hello To My Land",
@@ -7,8 +8,27 @@ const  quizDB = [
                  d: "Hypertext Markup Language",
                  ans: "ans4"
                              },
+
+       {
+                 question: "Q2: ALL HTML tags are enclosed in what?",
+                 a: "# and #",
+                 b: "? and !",
+                 c: "< and >",
+                 d: "{ and }",
+                 ans: "ans3"
+                                 },
+                                 
+                  {
+                   question: "Q3: The BODY tag is usually used after __ ",
+                      a: "HTML tag",
+                      b: "EM tag",
+                      c: "TITLE tag",
+                      d: "HEAD tag",
+                     ans: "ans4"
+                                         },                              
+
           {
-                  question: " Q2: What is the full form of CSS?",
+                  question: " Q4: What is the full form of CSS?",
                  a: "Cascading Style Sheets",
                  b: "Cascading Style Sheep",
                  c: "Cartoon Style Sheets",
@@ -16,7 +36,7 @@ const  quizDB = [
                  ans: "ans1"
                                   },
         {
-                  question: "Q3: What is the full form of HTTP?",
+                  question: "Q5: What is the full form of HTTP?",
                   a: "Hypertext Transfer Product",
                   b: "Hypertext Test Protocol", 
                   c: "Hey Transfer Protocol",
@@ -24,7 +44,7 @@ const  quizDB = [
                  ans: "ans4"
                                                },
        {
-                  question: "Q4: What is the full form of JS?",
+                  question: "Q6: What is the full form of JS?",
                      a: "JavaScript",
                      b: "JavaSuper",
                      c: "JustScript",
